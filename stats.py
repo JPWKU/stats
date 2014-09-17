@@ -55,9 +55,9 @@ def main(num_list=None):
     get_zones(check_value, avg_value, min_value, max_value)
 
 if __name__ == "__main__":
-    val_list = []
-    for line in sys.stdin:
-        val_list.append(float(line))
-    last_val = val_list.pop()
-    num_list = [val_list, last_val] 
-    main(num_list)
+    #val_list = []
+    # for line in sys.stdin:
+    #    val_list.append(float(line))
+    #last_val = val_list.pop()
+    #num_list = [val_list, last_val] 
+    main()
